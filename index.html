@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: #f2f2f2;
+    }
+    div{
+        padding-top: 2rem;
+        width: 50%;
+        height: 70vh;
+        border-radius: 1rem;
+        text-align: center;
+        margin-top: 5rem;
+        margin-left: 20rem;
+        background-color: rgb(146, 130, 130);
+        font-size: large;
+        
+    }
+  
+@media (max-width: 768px) {
+    #container {
+        padding: 20px;
+        max-width: 90%;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+
+    #para {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    label {
+        font-size: 13px;
+    }
+
+ button {
+        font-size: 12px;
+    }
+
+    #para {
+        font-size: 14px;
+    }
+}
+
+</style>
+<body>
+    <div id="container">
+        <h1>SIGNAL COLOR MESSAGE APP</h1>
+        <label for="">Select Color:</label>
+        <p id="Red"></p>
+        <p id="Yellow"></p>
+         <p id="Green"></p>
+         <p id="para"></p>
+         <button onclick=" colorclick()">Generate Message</button>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
